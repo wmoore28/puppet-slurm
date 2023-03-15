@@ -25,7 +25,6 @@ class slurm::common::install::rpm {
     package { 'slurm': }
     package { 'slurm-contribs': }
     package { 'slurm-devel': }
-    package { 'slurm-example-configs': }
     package { 'slurm-perlapi': }
     package { 'slurm-libpmi': }
   }
